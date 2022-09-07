@@ -9,6 +9,7 @@ In addition to generating robust **M**ulti-**S**equence **A**lignments (MSAs), s
 
 ## Dependencies
 + [Barrnap](https://github.com/weizhongli/cdhit)
++ [CUB](https://github.com/xxmalcala/CUB) (may become integrated...)
 + [CD-HIT](https://github.com/weizhongli/cdhit)
 + [DIAMOND](https://github.com/bbuchfink/diamond)
 + [GUIDANCE2](http://guidance.tau.ac.il/source.php)
@@ -17,6 +18,7 @@ In addition to generating robust **M**ulti-**S**equence **A**lignments (MSAs), s
   - [ETE3](http://etetoolkit.org/)
   - [BioPython](https://biopython.org/wiki/Download)
 + [TrimAl](https://github.com/inab/trimal)
++ [Vsearch](https://github.com/torognes/vsearch)
 
 ## Usage
 Generate a new configuration file:
@@ -39,3 +41,4 @@ $ python phygen.py -r -c my-config.txt
 - [ ] Include phylogeny building support (e.g. IQTree2)
 - [ ] Automate gene-species-tree reconciliation tools (ASTRAL-III or GeneRAX)
 - [ ] Composition based contaminant screening
+- [ ] rDNA database for unusual (i.e. Foraminifera) rDNA removal
