@@ -23,15 +23,15 @@ In addition to generating robust **M**ulti-**S**equence **A**lignments (MSAs), s
 ## Usage
 Generate a new configuration file:
 ```
-$ python phygen.py -something
+$ python phygen.py --make_config
 ```
 Run PhyGen on an existing configuration file:
 ```
-$ python phygen.py -c my-config.txt
+$ python phygen.py --config my-config.txt
 ```
 Resume an existing PhyGen run:
 ```
-$ python phygen.py -r -c my-config.txt
+$ python phygen.py --resume --config my-config.txt
 ```
 
 ## Planned Updates
