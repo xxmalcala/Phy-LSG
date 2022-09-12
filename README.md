@@ -37,8 +37,7 @@ $ python phygen.py --resume --config my-config.txt
 ## Planned Updates
 - [ ] Improve multi-threading
 - [ ] Upload Databases (AddTaxa and "generic")
-- [ ] Conda packaging!
 - [ ] Phylogeny Reconstruction support (e.g. IQTree2)
 - [ ] Gene-species-tree reconciliation support (ASTRAL-III or GeneRAX)
-- [ ] Composition based contaminant screening
 - [ ] rDNA database for unusual (i.e. Foraminifera) rDNA removal
+- [ ] Conda packaging!
