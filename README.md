@@ -34,8 +34,7 @@ Resume an existing PhyGen run:
 $ python phygen.py --resume --config my-config.txt
 ```
 
-## Usage
-Outputs include:
+## Outputs include:
 + Folder of "pruned" homologs ready for phylogenetic reconstruction.
 + Post-Guidance MSAs with and without informed column removal.
   - Provides opportunity to produce corresponding nucleotide alignments for downstream applications (e.g. HyPhy).
