@@ -34,6 +34,14 @@ Resume an existing PhyGen run:
 $ python phygen.py --resume --config my-config.txt
 ```
 
+## Usage
+Outputs include:
++ Folder of "pruned" homologs ready for phylogenetic reconstruction.
++ Post-Guidance MSAs with and without informed column removal.
+  - Provides opportunity to produce corresponding nucleotide alignments for downstream applications (e.g. HyPhy).
++ Log file summarizing steps, including the numer of sequences removed.
++ FASTA file for each gene family with the removed putative non-homologous sequences.
+
 ## Planned Updates
 - [ ] Improve multi-threading
 - [ ] Phylogeny Reconstruction support (e.g. IQTree2)
